@@ -5,6 +5,11 @@ public class Post {
     private int nameAuthor;
     private int date;
     private int text;
+    private int ownerId;
+    private int fromId;
+    private int createdBy;
+    private int replyOwnerId;
+    private int replyPostId;
     private LikeInfo likeInfo;
     private CommentsInfo commentsInfo;
     private ViewsInfo viewsInfo;
